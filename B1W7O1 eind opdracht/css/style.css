@@ -1,0 +1,146 @@
+body {
+	font-family: 'Lato', sans-serif;
+	
+}
+.pagina {
+	width: 1100px;
+	position: center;
+}
+.grid-container {
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+.nav {
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
+ul{
+	list-style-type: none;
+	margin-left: 35%;
+	padding-left: 0;
+	overflow: hidden;
+}
+li {
+	float: right;
+}
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: grey;
+}
+.logo{
+	background-image: url("../img/header_bg.png");
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
+.banner{
+	background-image: url("../img/banner_bg.png");
+	height: 425px;
+	background-repeat: repeat;
+	grid-column: 1/4;
+	grid-row: 2/3;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+.tekst1 {
+	grid-column: 3/4;
+	grid-row: 2/3;
+}
+.titel1 {	
+	font-size: 20px;
+	line-height: 22px;
+	color: white;
+}
+.p1 {
+	font-size: 14px;
+	line-height: 20px;
+	color: white;
+}
+.p {
+	font-size: 14px;
+	line-height: 20px;
+	color: grey;
+}
+.af1 {
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+.af2 {
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.af3 {
+	grid-column: 3/4;
+	grid-row: 3/4;
+}
+.tekst2 {
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+.titel2 {	
+	font-size: 20px;
+	line-height: 22px;
+	color: grey;
+}
+.tekst3 {
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+.titel3 {	
+	font-size: 20px;
+	line-height: 22px;
+	color: grey;
+}
+.tekst4 {
+	grid-column: 3/4;
+	grid-row: 4/5;
+}
+.titel4 {	
+	font-size: 20px;
+	line-height: 22px;
+	color: grey;
+}
+.footer {
+	background: url("../img/footer_bg.png");
+	grid-column: 1/4;
+	grid-row: 5/6;
+}
+.suits {
+	width: 690px;
+	height: 320px;
+}
+.menglasses {
+	width: 300px;
+	height: 150px;
+}
+.menwatch {
+	width: 300px;
+	height: 150px;
+}
+.menshoes {
+	width: 300px;
+	height: 150px;
+}
+.cars {
+	width: 690px;
+	height: 320px;
+}
+.classiccars {
+	width: 300px;
+	height: 150px;
+}
+.supercars {
+	width: 300px;
+	height: 150px;
+}
+.jeeps {
+	width: 300px;
+	height: 150px;
+}
